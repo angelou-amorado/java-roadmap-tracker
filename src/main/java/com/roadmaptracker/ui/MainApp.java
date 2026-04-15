@@ -20,7 +20,7 @@ public class MainApp extends Application {
         if(trackerService.getPhases().isEmpty()){
             // Seed data
         }
-        MainView mainView = new MainView(primaryStage);
+        MainView mainView = new MainView(primaryStage, trackerService);
         mainView.show();
     }
 
